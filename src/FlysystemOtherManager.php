@@ -394,7 +394,7 @@ class FlysystemOtherManager extends FlysystemManager
     /**
      * {@inheritdoc}
      */
-    protected function resolve($name)
+    protected function resolve($name, $config = null)
     {
         $adapter = parent::resolve($name);
 
